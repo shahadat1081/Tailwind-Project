@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth" class="dark" id="htmltage">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="output/main.css">
+     <script src="https://kit.fontawesome.com/0a3cfd4378.js" crossorigin="anonymous"></script>
+
+     <script crossorigin="anonymous" src="https://kit.fontawesome.com/70a642cd7c.js"></script>
+</head>
+<body class="bg-white dark:bg-gray-900">
+
+
+
+<header>
+    <nav class="container flex items-center justify-between md:mx-14 md:py-4 mx-4 py-2">
+        <div class="flex items-center gap-2">
+               <a href="index.html">
+            <img src="image/tickerAI-logo 1.png" alt="Logo"></a>
+            <p class="text-xs dark:text-white">A Mark Cuban Company<br>
+AI-based Financial Market News Aggregator</p>
+        </div>
+        <div class="flex items-center gap-2 md:gap-4">
+            <a href="index.html">
+                <button class="bg-[#5677AC] text-white font-semibold px-2 py-1 rounded md:px-3 md:py-2 hover:scale-105 transition hover:translate-y-1">Personalize News</button>
+
+            </a>
+            <div class="font-bold text-[#5677AC] bg-[#5677AC26] md:text-2xl text-lg size-9 flex items-center rounded-full justify-center cursor-pointer hover:scale-105 transition ">KI</div>
+
+             <button id="switch" >
+           <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6 dark:stroke-white">
+  <path stroke-linecap="round" stroke-linejoin="round" d="M21.752 15.002A9.72 9.72 0 0 1 18 15.75c-5.385 0-9.75-4.365-9.75-9.75 0-1.33.266-2.597.748-3.752A9.753 9.753 0 0 0 3 11.25C3 16.635 7.365 21 12.75 21a9.753 9.753 0 0 0 9.002-5.998Z" />
+</svg>
+      </button>
+        </div>
+    </nav>
+</header>
+<!-- Personalize new section-->
+ <section class="bg-slate-200 p-2 mb-8 dark:bg-gray-900">
+    <section class="">
+        <div class="md:ml-16 border-b md:mr-16 border-black md:border-b-[3px] dark:border-white">
+            <h3 class="uppercase font-semibold md:text-2xl text-lg text-[#333333] dark:text-white">Personalize your news</h3>
+        </div>
+        <div class="">
+        <div class="py-3 text-center bg-white mt-8 p-8 rounded max-w-lg mx-auto md:mb-8 mb-24">
+            <h3 class="pb-4 font-semibold">Select your Markets</h3>
+            <div class="bg-sky-200 text-center p-1.5 md:p-2 rounded-full font-semibold text-lg md:text-2xl hover:bg-sky-300 transition cursor-pointer hover:scale-105 mb-2">Stocks</div>
+            <div class="bg-sky-200 text-center p-1.5 md:p-2 rounded-full font-semibold text-lg md:text-2xl hover:bg-sky-300 transition cursor-pointer hover:scale-105 mb-2">Crypto</div>
+            <div class="bg-sky-200 text-center p-1.5 md:p-2 rounded-full font-semibold text-lg md:text-2xl hover:bg-sky-300 transition cursor-pointer hover:scale-105 mb-2">Economy & Business</div>
+            <div class="bg-sky-200 text-center p-1.5 md:p-2 rounded-full font-semibold text-lg md:text-2xl hover:bg-sky-300 transition cursor-pointer hover:scale-105 mb-2">Comodities | Forex</div>
+            <div class="bg-sky-200 text-center p-1.5 md:p-2 rounded-full font-semibold text-lg md:text-2xl hover:bg-sky-300 transition cursor-pointer hover:scale-105 mb-2">Fixed income</div>
+               <button  class="bg-blue-500 text-center p-1.5 md:p-2 rounded-full font-semibold text-lg md:text-2xl hover:bg-blue-600 transition cursor-pointer hover:scale-105 w-full">Continue</button>
+        </div>
+        
+        </div>
+     
+    </section>
+ </section>
+
+<!--footer section-->
+<footer class="text-black text-center pb-5 w-full mt-4 dark:text-white">
+    All right reserved to TickerAI -2025
+</footer>
+<!--use java script-->
+<script>
+    const htmltage = document.getElementById('htmltage');
+    document.getElementById('switch').addEventListener('click',function() {
+        htmltage.classList.toggle('dark');
+    })
+</script>
+</body>
+</html>
